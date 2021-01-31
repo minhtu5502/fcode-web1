@@ -16,7 +16,7 @@
     src: url(font/Lato-Bold.ttf);
 } 
 .container{
-   border: 1px solid blue;
+   
    width: 1440;
    min-height: 8000px;
    margin: 0px auto;
@@ -114,7 +114,7 @@
     width: 480px;
     height: 65px;
     color: #6c9894;
-    font-size: 15px;
+    font-size: 20px;
     position: absolute;
     top: 470px;
     margin-left: 817px;
@@ -274,9 +274,6 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-.shape-page3{
-    margin-left: -20px;
-}
 .text-title-page3{
     font-family: font1;
     position: absolute;
@@ -380,7 +377,6 @@
     font-family: font1;
 }
 
-
 .page5{
     width: 100%;
     height: 975px;
@@ -419,6 +415,9 @@
     margin-top: 50px;
     font-size: 20px;
     font-family: font1;
+}
+.shape-page5{
+    float: right;
 }
 
 .page6{
@@ -530,4 +529,89 @@
     font-family: font1;
     color: #6c9894;
     font-size: 50px;
+}
+.page8{
+    width: 100%;
+    height: 645px;
+    background-color: #6c9894;
+}
+.text-title-page8{
+    text-align: center;
+    color: #ffffff;
+    font-size: 70px;
+    padding-top: 100px;
+    font-family: font1;
+}
+.text-body-page8{
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: font2;
+}
+input{
+    width: 660px;
+    height: 65px;
+    border-radius: 50px;
+}
+::placeholder{
+    font-size: 25px;
+    
+    padding: 50px;
+    font-family: font2;
+}
+button{
+    font-family: font1;
+    font-size: 25px;
+    width: 260px;
+    height: 65px;
+    border-radius: 50px;
+    margin-left: -211px;
+    background-color: #f4f9f4;
+    color: #6c9894;
+    margin-top: 20px;
+}
+form{
+    text-align: center;
+    margin-top: 100px;
+}
+.page9{
+    width: 100%;
+    height: 50px;
+    background-color: #f4f9f4;
+}
+.col1-page9{
+    
+    height: 200px;
+    padding-left: 50px;
+    padding-top: 200px;
+}
+.title-col-page9{
+    font-size: 30px;
+    color: #6c9894;
+    font-family: font1;
+}
+.body-col-page9{
+    font-size: 25px;
+    color: #6c9894;
+    font-family: font2;
+}
+.col2-page9{
+    width: 200px;
+    height: 300px;
+    float: right;
+    margin-right: 65px;
+}
+.icon{
+    margin-bottom: 20px;
+}
+.text-icon{
+    width: 60%;
+    height: 100%;
+    float: right;
+    margin-top: -182px;
+    margin-right: 15px;
+}
+.text{
+    margin-bottom: 15px;
+    
 }
