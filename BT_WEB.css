@@ -391,6 +391,9 @@
     float: right;
     padding: 100px;
     padding-top: 200px;
+    position: relative;
+    z-index: 2;
+    
 }
 
 .text-title-page5{
@@ -417,7 +420,11 @@
     font-family: font1;
 }
 .shape-page5{
-    float: right;
+    padding-left: 870px;
+    position: absolute;
+    top: 3830px;
+    z-index: initial;
+    
 }
 
 .page6{
